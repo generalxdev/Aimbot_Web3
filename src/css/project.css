@@ -1,0 +1,140 @@
+.body {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+}
+
+/* _lg */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* _md */
+@media only screen and (max-width: 1020px) {
+
+}
+
+/* _sm */
+@media only screen and (max-width: 840px) {
+
+}
+
+/* _mobile */
+@media only screen and (max-width: 500px) {
+
+}
+
+.line {
+  height: 2px;
+  max-width: 90rem;
+  background-image: linear-gradient(171deg, #030015, rgba(150, 102, 255, .18) 50%, #030015);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.claim_section {
+    background-image: radial-gradient(circle, rgba(3, 0, 20, .4) 14%, #030015 63%), url(https://uploads-ssl.webflow.com/64b98ae8b7e1288cf71ec395/64bc3517c380dc07d9ab59bc_bg-2.svg);
+    background-position: 0 0, 50% 130%;
+    background-size: auto, cover;
+}
+
+.claim_section_portfolio {
+  background-image: radial-gradient(circle, rgba(3, 0, 20, .4) 14%, #030015 63%), url(https://uploads-ssl.webflow.com/64b98ae8b7e1288cf71ec395/64bc3517c380dc07d9ab59bc_bg-2.svg);
+  background-position: 0, 0, 50% 130%;
+  background-size: auto, cover;
+}
+
+.social-grid-content-telegram {
+    background-image: url(	https://uploads-ssl.webflow.com/64b98ae8b7e1288cf71ec395/64ca74675481996cd68ff61c_telegram%20pic.png), linear-gradient(to right, #2aabee, #229ed9);
+    background-position: 350px -40px, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, auto;
+    text-decoration: none;
+}
+
+.social-grid-content-twitter {
+    background-image: url(https://uploads-ssl.webflow.com/64b98ae8b7e1288cf71ec395/64ca731fe9565f565d4c34e6_twitter-pic.png), linear-gradient(to right, #2aabee, #229ed9);
+    background-position: 350px -40px, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, auto;
+    text-decoration: none;
+}
+
+.gradient-1 {
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  opacity: .3;
+  filter: blur(130px);
+  background-image: linear-gradient(#dcd2fc, #9b83d0);
+  border-radius: 200px;
+  position: absolute;
+  top: 50px;
+}
+
+.metrics_item { 
+  background-color: #241349;
+    background-image: linear-gradient(5deg, rgba(195, 180, 235, .02), rgba(156, 133, 209, .31));
+}
+
+.metrics_item_down {
+  background-color: #7663a0;
+  background-image: linear-gradient(5deg, rgba(195, 180, 235, .02), rgba(156, 133, 209, .31));
+}
+
+.claim_eth_box {
+  box-shadow: inset 0 0 20px 5px rgba(191, 151, 255, .44);
+  border: 1px solid #9b83d0;
+}
+
+.hero_section {
+  background-image: radial-gradient(circle, rgba(3, 0, 20, .4) 14%, #030015 63%), url(https://uploads-ssl.webflow.com/64b98ae8b7e1288cf71ec395/64bc3517c380dc07d9ab59bc_bg-2.svg);
+  background-position: 0, 0, 0, 0;
+  background-size: auto, cover;
+}
+
+/* --------------------------------- */
+  
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    /* padding: 1px; Add padding */
+  }
+
+  #myTable1 {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  #myTable1 th, #myTable1 td {
+    text-align: left; /* Left-align text */
+  }
+
+  .equal-width-td {
+    width: 7.5% !important;
+  }
+
+  .equal-width-td-light-focus{
+    width: 10% !important;
+  }
+
+  .equal-width-td-focus {
+    width: 12.5% !important;
+  }
+
+  .equal-width-td-strong-focus {
+    width: 15% !important;
+  }
+
+  .equal-width-td-AI {
+    width: 20% !important;
+  }
